@@ -20,5 +20,12 @@ namespace SouthVPN
         {
             InitializeComponent();
         }
+
+        private void OpenServerSelection_Click(object sender, RoutedEventArgs e)
+        {
+            ServerSelectionWindow window = new ServerSelectionWindow();
+            window.ShowDialog();
+        }
+
     }
 }

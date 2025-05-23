@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C757FF1B-AEC7-43C7-AE30-C2BABBA90486}|SouthVPN\\SouthVPN.csproj|c:\\users\\kaytr\\desktop\\projekte\\southvpn\\southvpn\\southvpn\\southvpn\\serverselectionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C757FF1B-AEC7-43C7-AE30-C2BABBA90486}|SouthVPN\\SouthVPN.csproj|solutionrelative:southvpn\\serverselectionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C757FF1B-AEC7-43C7-AE30-C2BABBA90486}|SouthVPN\\SouthVPN.csproj|c:\\users\\kaytr\\desktop\\projekte\\southvpn\\southvpn\\southvpn\\southvpn\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C757FF1B-AEC7-43C7-AE30-C2BABBA90486}|SouthVPN\\SouthVPN.csproj|solutionrelative:southvpn\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C757FF1B-AEC7-43C7-AE30-C2BABBA90486}|SouthVPN\\SouthVPN.csproj|c:\\users\\kaytr\\desktop\\projekte\\southvpn\\southvpn\\southvpn\\southvpn\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C757FF1B-AEC7-43C7-AE30-C2BABBA90486}|SouthVPN\\SouthVPN.csproj|solutionrelative:southvpn\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757FF1B-AEC7-43C7-AE30-C2BABBA90486}|SouthVPN\\SouthVPN.csproj|c:\\users\\kaytr\\desktop\\projekte\\southvpn\\southvpn\\southvpn\\southvpn\\serverselectionwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C757FF1B-AEC7-43C7-AE30-C2BABBA90486}|SouthVPN\\SouthVPN.csproj|solutionrelative:southvpn\\serverselectionwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757FF1B-AEC7-43C7-AE30-C2BABBA90486}|SouthVPN\\SouthVPN.csproj|c:\\users\\kaytr\\desktop\\projekte\\southvpn\\southvpn\\southvpn\\southvpn\\ivpnservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C757FF1B-AEC7-43C7-AE30-C2BABBA90486}|SouthVPN\\SouthVPN.csproj|solutionrelative:southvpn\\ivpnservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C757FF1B-AEC7-43C7-AE30-C2BABBA90486}|SouthVPN\\SouthVPN.csproj|c:\\users\\kaytr\\desktop\\projekte\\southvpn\\southvpn\\southvpn\\southvpn\\fakevpnservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C757FF1B-AEC7-43C7-AE30-C2BABBA90486}|SouthVPN\\SouthVPN.csproj|solutionrelative:southvpn\\fakevpnservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,7 +42,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IVpnService.cs",
+              "DocumentMoniker": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\SouthVPN\\IVpnService.cs",
+              "RelativeDocumentMoniker": "SouthVPN\\IVpnService.cs",
+              "ToolTip": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\SouthVPN\\IVpnService.cs",
+              "RelativeToolTip": "SouthVPN\\IVpnService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAIwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T10:58:25.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServerSelectionWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\SouthVPN\\ServerSelectionWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SouthVPN\\ServerSelectionWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\SouthVPN\\ServerSelectionWindow.xaml.cs",
+              "RelativeToolTip": "SouthVPN\\ServerSelectionWindow.xaml.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAuwCUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T10:51:56.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ServerSelectionWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\SouthVPN\\ServerSelectionWindow.xaml",
+              "RelativeDocumentMoniker": "SouthVPN\\ServerSelectionWindow.xaml",
+              "ToolTip": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\SouthVPN\\ServerSelectionWindow.xaml",
+              "RelativeToolTip": "SouthVPN\\ServerSelectionWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-23T10:51:24.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\SouthVPN\\MainWindow.xaml",
               "RelativeDocumentMoniker": "SouthVPN\\MainWindow.xaml",
@@ -38,15 +92,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\SouthVPN\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "SouthVPN\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\SouthVPN\\MainWindow.xaml.cs",
               "RelativeToolTip": "SouthVPN\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAcwBwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T11:11:01.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FakeVpnService.cs",
+              "DocumentMoniker": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\SouthVPN\\FakeVpnService.cs",
+              "RelativeDocumentMoniker": "SouthVPN\\FakeVpnService.cs",
+              "ToolTip": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\SouthVPN\\FakeVpnService.cs",
+              "RelativeToolTip": "SouthVPN\\FakeVpnService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T10:59:15.22Z",
               "EditorCaption": ""
             }
           ]

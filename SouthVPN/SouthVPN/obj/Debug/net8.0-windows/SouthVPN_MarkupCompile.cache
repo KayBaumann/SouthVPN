@@ -1,5 +1,5 @@
 ﻿SouthVPN
-1.0.0.0
+
 
 winexe
 C#
@@ -12,7 +12,7 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\kaytr\Desktop\Projekte\SouthVPN\SouthVPN\SouthVPN\SouthVPN\App.xaml
 2-1457043085
 
-91765296896
+7647049348
 198915248976
 MainWindow.xaml;ServerSelectionWindow.xaml;
 
