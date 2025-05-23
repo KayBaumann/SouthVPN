@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "eR3c8YYvPLkfWbNb9U4UmgCfLquqP/2Ee4XopcUMMfDfp9r9B3B1fUjOtHTigSERq6e5ksFAcOZHyLjPqWUO8w==",
+  "dgSpecHash": "dxiqSl+wX9LsHwIrpRg9knfFybicm+/nVlsYmAwHam2NO7HnQldO4zKdXKhA0hehcU2ZFDkt/52Qm9gLPpbbzg==",
   "success": true,
   "projectFilePath": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\SouthVPN\\SouthVPN.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\kaytr\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.119\\stub.system.data.sqlite.core.netstandard.1.0.119.nupkg.sha512",
+    "C:\\Users\\kaytr\\.nuget\\packages\\system.data.sqlite.core\\1.0.119\\system.data.sqlite.core.1.0.119.nupkg.sha512"
+  ],
   "logs": []
 }

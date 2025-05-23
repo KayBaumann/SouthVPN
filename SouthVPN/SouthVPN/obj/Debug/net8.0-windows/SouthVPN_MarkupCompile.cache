@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\kaytr\Desktop\Projekte\SouthVPN\SouthVPN\SouthVPN\SouthVPN\App.xaml
-2-1457043085
+31214225395
 
-7647049348
+835743357
 198915248976
-MainWindow.xaml;ServerSelectionWindow.xaml;
+LoginWindow.xaml;MainWindow.xaml;ServerSelectionWindow.xaml;
 
 False
 

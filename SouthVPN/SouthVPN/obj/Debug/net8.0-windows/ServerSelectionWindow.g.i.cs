@@ -68,7 +68,7 @@ namespace SouthVPN {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/SouthVPN;component/serverselectionwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/SouthVPN;V1.0.0.0;component/serverselectionwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ServerSelectionWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
