@@ -86,11 +86,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\SouthVPN\\SouthVPN.csproj",
+      "projectUniqueName": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\SouthVPN.csproj",
       "projectName": "SouthVPN",
-      "projectPath": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\SouthVPN\\SouthVPN.csproj",
+      "projectPath": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\SouthVPN.csproj",
       "packagesPath": "C:\\Users\\kaytr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\SouthVPN\\obj\\",
+      "outputPath": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kaytr\\AppData\\Roaming\\NuGet\\NuGet.Config",

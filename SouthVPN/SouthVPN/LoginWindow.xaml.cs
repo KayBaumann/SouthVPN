@@ -7,6 +7,7 @@ namespace SouthVPN
         public LoginWindow()
         {
             InitializeComponent();
+            DatabaseHelper.Init();
         }
 
         private void LoginButton_Click(object sender, RoutedEventArgs e)
@@ -14,7 +15,7 @@ namespace SouthVPN
             string username = usernameBox.Text;
             string password = passwordBox.Password;
 
-            if (username == "admin" && password == "vpn123")
+            if (DatabaseHelper.CheckLogin(username, password))
             {
                 MainWindow main = new MainWindow();
                 main.Show();
@@ -22,8 +23,14 @@ namespace SouthVPN
             }
             else
             {
-                MessageBox.Show("Login fehlgeschlagen", "Fehler", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Login fehlgeschlagen!", "Fehler", MessageBoxButton.OK, MessageBoxImage.Error);
             }
+        }
+
+        private void OpenRegisterWindow_Click(object sender, RoutedEventArgs e)
+        {
+            RegisterWindow register = new RegisterWindow();
+            register.ShowDialog();
         }
     }
 }

@@ -1,0 +1,48 @@
+﻿<Window x:Class="SouthVPN.RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Registrieren"
+        WindowState="Maximized"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Background="#f0f0f0"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Schließen-Button -->
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Schließen-Button oben rechts -->
+        <Button Content="✕" Width="40" Height="40"
+                HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10"
+                Background="Transparent" BorderBrush="Transparent" FontSize="16"
+                Click="CloseButton_Click" ToolTip="Fenster schließen"/>
+
+        <Grid Grid.Row="1" Margin="40">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="300"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="Benutzername:" Grid.Row="0" Grid.Column="0" Margin="0,0,10,10" VerticalAlignment="Center" FontSize="16"/>
+            <TextBox x:Name="usernameBox" Grid.Row="0" Grid.Column="1" Height="30" Margin="0,0,0,10" FontSize="16"/>
+
+            <TextBlock Text="Passwort:" Grid.Row="1" Grid.Column="0" Margin="0,0,10,10" VerticalAlignment="Center" FontSize="16"/>
+            <PasswordBox x:Name="passwordBox" Grid.Row="1" Grid.Column="1" Height="30" Margin="0,0,0,10" FontSize="16"/>
+
+            <Button Content="Registrieren" Grid.Row="2" Grid.ColumnSpan="2" Height="40" Width="150"
+                    HorizontalAlignment="Center" Margin="0,20,0,0"
+                    FontSize="16" Click="RegisterButton_Click"/>
+        </Grid>
+    </Grid>
+</Window>
