@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C757FF1B-AEC7-43C7-AE30-C2BABBA90486}|SouthVPN\\SouthVPN.csproj|c:\\users\\kaytr\\desktop\\projekte\\southvpn\\southvpn\\southvpn\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C757FF1B-AEC7-43C7-AE30-C2BABBA90486}|SouthVPN\\SouthVPN.csproj|solutionrelative:southvpn\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C757FF1B-AEC7-43C7-AE30-C2BABBA90486}|SouthVPN\\SouthVPN.csproj|c:\\users\\kaytr\\desktop\\projekte\\southvpn\\southvpn\\southvpn\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C757FF1B-AEC7-43C7-AE30-C2BABBA90486}|SouthVPN\\SouthVPN.csproj|solutionrelative:southvpn\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C757FF1B-AEC7-43C7-AE30-C2BABBA90486}|SouthVPN\\SouthVPN.csproj|c:\\users\\kaytr\\desktop\\projekte\\southvpn\\southvpn\\southvpn\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C757FF1B-AEC7-43C7-AE30-C2BABBA90486}|SouthVPN\\SouthVPN.csproj|solutionrelative:southvpn\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C757FF1B-AEC7-43C7-AE30-C2BABBA90486}|SouthVPN\\SouthVPN.csproj|c:\\users\\kaytr\\desktop\\projekte\\southvpn\\southvpn\\southvpn\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C757FF1B-AEC7-43C7-AE30-C2BABBA90486}|SouthVPN\\SouthVPN.csproj|solutionrelative:southvpn\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,26 +27,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "SouthVPN\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\MainWindow.xaml.cs",
-              "RelativeToolTip": "SouthVPN\\MainWindow.xaml.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAwwCcAAAAJAAAA",
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SouthVPN\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "SouthVPN\\LoginWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T07:24:46.004Z",
+              "WhenOpened": "2025-06-10T09:38:35.935Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "SouthVPN\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\MainWindow.xaml",
-              "RelativeToolTip": "SouthVPN\\MainWindow.xaml",
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "SouthVPN\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\LoginWindow.xaml",
+              "RelativeToolTip": "SouthVPN\\LoginWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-30T11:30:01.961Z",
+              "WhenOpened": "2025-06-10T09:38:34.342Z",
               "EditorCaption": ""
             }
           ]

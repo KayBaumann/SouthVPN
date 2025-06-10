@@ -58,3 +58,4 @@ C:\Users\kaytr\Desktop\Projekte\SouthVPN\SouthVPN\SouthVPN\obj\Debug\net8.0-wind
 C:\Users\kaytr\Desktop\Projekte\SouthVPN\SouthVPN\SouthVPN\bin\Debug\net8.0-windows\pic\Logo.png
 C:\Users\kaytr\Desktop\Projekte\SouthVPN\SouthVPN\SouthVPN\obj\Debug\net8.0-windows\SouthVPN_Content.g.cs
 C:\Users\kaytr\Desktop\Projekte\SouthVPN\SouthVPN\SouthVPN\bin\Debug\net8.0-windows\pic\main\background.png
+C:\Users\kaytr\Desktop\Projekte\SouthVPN\SouthVPN\SouthVPN\bin\Debug\net8.0-windows\pic\main\OnButton.png

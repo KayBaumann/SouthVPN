@@ -12,6 +12,7 @@
     <None Remove="pic\background.png" />
     <None Remove="pic\Logo.png" />
     <None Remove="pic\main\background.png" />
+    <None Remove="pic\main\OnButton.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,6 +20,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="pic\main\background.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pic\main\OnButton.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

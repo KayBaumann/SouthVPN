@@ -3,9 +3,6 @@ using System.Windows.Controls;
 
 namespace SouthVPN
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -13,29 +10,25 @@ namespace SouthVPN
             InitializeComponent();
         }
 
-        // App beenden
         private void ExitButton_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
         }
 
-        // Verbindung (simuliert)
+        // placeholder for the openvpn connection
         private void ConnectButton_Click(object sender, RoutedEventArgs e)
         {
-            if (ServerComboBox.SelectedItem is ComboBoxItem selectedItem)
+            if (ServerListBox.SelectedItem is ListBoxItem item)
             {
-                string selectedServer = selectedItem.Content.ToString();
-                MessageBox.Show($"Verbinde mit {selectedServer} ...", "Verbindung", MessageBoxButton.OK, MessageBoxImage.Information);
-
-                // TODO: Hier kannst du echte VPN-Logik einbauen
+                string serverName = item.Content.ToString();
+                MessageBox.Show($"Verbinde mit {serverName} ...", "VPN", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             else
             {
-                MessageBox.Show("Bitte wähle einen Server aus.", "Fehler", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("Bitte wähle einen Server aus.");
             }
         }
 
-        // Zurück zum Login-Fenster
         private void LogoutButton_Click(object sender, RoutedEventArgs e)
         {
             LoginWindow login = new LoginWindow();

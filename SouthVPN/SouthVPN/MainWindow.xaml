@@ -12,83 +12,98 @@
         Background="#f0f0f0">
 
     <Grid>
-        <!-- Hauptlayout mit zwei Spalten -->
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="300"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <!-- Linke Seite: Serverauswahl -->
-            <Border Grid.Column="0" Background="#1F2A40" Padding="20">
-                <StackPanel VerticalAlignment="Center">
+            <Grid Grid.Column="0" Background="#1F2A40">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Margin="20" VerticalAlignment="Top">
                     <TextBlock Text="Wähle einen Server:"
                                Foreground="White"
                                FontSize="18"
                                Margin="0,0,0,10"/>
 
-                    <ComboBox x:Name="ServerComboBox"
-                              Width="220"
-                              Height="35"
-                              FontSize="14"
-                              Margin="0,0,0,10">
-                        <ComboBoxItem Content="Swiss-Test-Server"/>
-                        <ComboBoxItem Content="Deutschland - Frankfurt"/>
-                        <ComboBoxItem Content="USA - New York"/>
-                    </ComboBox>
+                    <ListBox x:Name="ServerListBox"
+                             Width="220"
+                             Background="White"
+                             BorderThickness="0"
+                             FontSize="14"
+                             SelectionMode="Single">
+                        <ListBoxItem Content="Swiss-Test-Server"/>
+                        <ListBoxItem Content="Deutschland - Frankfurt"/>
+                        <ListBoxItem Content="USA - New York"/>
+                    </ListBox>
+                </StackPanel>
 
-                    <Button Content="Verbinden"
-                            Width="220"
-                            Height="40"
+                <StackPanel Margin="20" Grid.Row="1" VerticalAlignment="Bottom">
+                    <Button Content="Abmelden"
+                            Width="220" Height="35"
                             Background="#246795"
                             Foreground="White"
-                            Click="ConnectButton_Click"/>
+                            FontWeight="Bold"
+                            Click="LogoutButton_Click"
+                            Margin="0,0,0,10"/>
+                    <Button Content="Beenden"
+                            Width="220" Height="35"
+                            Background="Transparent"
+                            BorderBrush="White"
+                            Foreground="White"
+                            Click="ExitButton_Click"/>
                 </StackPanel>
-            </Border>
+            </Grid>
 
-            <!-- Rechte Seite: Hintergrundbild + Begrüßung -->
             <Grid Grid.Column="1">
                 <Image Source="pic/main/background.png"
                        Stretch="UniformToFill"
-                       Opacity="0.15"
                        Panel.ZIndex="0"/>
 
+                <!-- Power Button -->
+                <Button Click="ConnectButton_Click"
+                        Width="200"
+                        Height="200"
+                        Background="Transparent"
+                        BorderBrush="Transparent"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Panel.ZIndex="1">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Grid>
+                                <Ellipse x:Name="ellipse"
+                                         Fill="Transparent"
+                                         StrokeThickness="2"
+                                         Stroke="Transparent"/>
+                                <Image Source="pic/main/OnButton.png"
+                                       Stretch="Uniform"/>
+                            </Grid>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="ellipse" Property="Stroke" Value="#246795"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
                 <StackPanel HorizontalAlignment="Center"
-                            VerticalAlignment="Center"
-                            Panel.ZIndex="1">
+                            VerticalAlignment="Top"
+                            Margin="0,80,0,0"
+                            Panel.ZIndex="2">
                     <TextBlock Text="Willkommen bei SouthVPN"
                                FontSize="28"
                                FontWeight="Bold"
                                Foreground="#246795"
-                               Margin="0,0,0,10"/>
-                    <TextBlock Text="Verbinde dich sicher mit einem Server deiner Wahl."
-                               FontSize="16"
-                               Foreground="#444"
+                               Margin="0,0,0,10"
                                TextAlignment="Center"/>
                 </StackPanel>
             </Grid>
-        </Grid>
-
-        <!-- Overlay: Abmelden + Schließen oben rechts -->
-        <Grid HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10" Panel.ZIndex="999">
-            <StackPanel Orientation="Horizontal">
-                <Button Content="Abmelden"
-                        Width="100" Height="30"
-                        Background="#246795"
-                        Foreground="White"
-                        FontWeight="Bold"
-                        Click="LogoutButton_Click"
-                        ToolTip="Zurück zum Login"
-                        Margin="0,0,10,0"/>
-                <Button Content="✕"
-                        Width="40" Height="30"
-                        Background="Transparent"
-                        BorderBrush="Transparent"
-                        FontSize="16"
-                        Foreground="Black"
-                        Click="ExitButton_Click"
-                        ToolTip="Programm schließen"/>
-            </StackPanel>
         </Grid>
     </Grid>
 </Window>
