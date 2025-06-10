@@ -13,9 +13,6 @@
     <Compile Update="RegisterWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="ServerSelectionWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="LoginWindow.xaml">
@@ -25,9 +22,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="RegisterWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="ServerSelectionWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

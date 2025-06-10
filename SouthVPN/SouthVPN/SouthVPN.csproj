@@ -9,6 +9,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="pic\background.png" />
+    <None Remove="pic\Logo.png" />
+    <None Remove="pic\main\background.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="pic\Logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pic\main\background.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="System.Data.SQLite.Core" Version="1.0.119" />
   </ItemGroup>
 

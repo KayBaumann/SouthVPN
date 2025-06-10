@@ -1,13 +1,5 @@
-﻿using System.Text;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace SouthVPN
 {
@@ -21,15 +13,34 @@ namespace SouthVPN
             InitializeComponent();
         }
 
-        private void OpenServerSelection_Click(object sender, RoutedEventArgs e)
-        {
-            ServerSelectionWindow window = new ServerSelectionWindow();
-            window.ShowDialog();
-        }
-
+        // App beenden
         private void ExitButton_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
+        }
+
+        // Verbindung (simuliert)
+        private void ConnectButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (ServerComboBox.SelectedItem is ComboBoxItem selectedItem)
+            {
+                string selectedServer = selectedItem.Content.ToString();
+                MessageBox.Show($"Verbinde mit {selectedServer} ...", "Verbindung", MessageBoxButton.OK, MessageBoxImage.Information);
+
+                // TODO: Hier kannst du echte VPN-Logik einbauen
+            }
+            else
+            {
+                MessageBox.Show("Bitte wähle einen Server aus.", "Fehler", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+        }
+
+        // Zurück zum Login-Fenster
+        private void LogoutButton_Click(object sender, RoutedEventArgs e)
+        {
+            LoginWindow login = new LoginWindow();
+            login.Show();
+            this.Close();
         }
     }
 }

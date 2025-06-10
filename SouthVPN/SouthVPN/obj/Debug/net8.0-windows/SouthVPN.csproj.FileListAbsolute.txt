@@ -35,10 +35,8 @@ C:\Users\kaytr\Desktop\Projekte\SouthVPN\SouthVPN\SouthVPN\bin\Debug\net8.0-wind
 C:\Users\kaytr\Desktop\Projekte\SouthVPN\SouthVPN\SouthVPN\bin\Debug\net8.0-windows\runtimes\win-x86\native\SQLite.Interop.dll
 C:\Users\kaytr\Desktop\Projekte\SouthVPN\SouthVPN\SouthVPN\obj\Debug\net8.0-windows\SouthVPN.csproj.AssemblyReference.cache
 C:\Users\kaytr\Desktop\Projekte\SouthVPN\SouthVPN\SouthVPN\obj\Debug\net8.0-windows\LoginWindow.baml
-C:\Users\kaytr\Desktop\Projekte\SouthVPN\SouthVPN\SouthVPN\obj\Debug\net8.0-windows\ServerSelectionWindow.baml
 C:\Users\kaytr\Desktop\Projekte\SouthVPN\SouthVPN\SouthVPN\obj\Debug\net8.0-windows\LoginWindow.g.cs
 C:\Users\kaytr\Desktop\Projekte\SouthVPN\SouthVPN\SouthVPN\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\kaytr\Desktop\Projekte\SouthVPN\SouthVPN\SouthVPN\obj\Debug\net8.0-windows\ServerSelectionWindow.g.cs
 C:\Users\kaytr\Desktop\Projekte\SouthVPN\SouthVPN\SouthVPN\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\kaytr\Desktop\Projekte\SouthVPN\SouthVPN\SouthVPN\obj\Debug\net8.0-windows\SouthVPN_MarkupCompile.cache
 C:\Users\kaytr\Desktop\Projekte\SouthVPN\SouthVPN\SouthVPN\obj\Debug\net8.0-windows\SouthVPN_MarkupCompile.lref
@@ -57,3 +55,6 @@ C:\Users\kaytr\Desktop\Projekte\SouthVPN\SouthVPN\SouthVPN\obj\Debug\net8.0-wind
 C:\Users\kaytr\Desktop\Projekte\SouthVPN\SouthVPN\SouthVPN\obj\Debug\net8.0-windows\ref\SouthVPN.dll
 C:\Users\kaytr\Desktop\Projekte\SouthVPN\SouthVPN\SouthVPN\obj\Debug\net8.0-windows\RegisterWindow.baml
 C:\Users\kaytr\Desktop\Projekte\SouthVPN\SouthVPN\SouthVPN\obj\Debug\net8.0-windows\RegisterWindow.g.cs
+C:\Users\kaytr\Desktop\Projekte\SouthVPN\SouthVPN\SouthVPN\bin\Debug\net8.0-windows\pic\Logo.png
+C:\Users\kaytr\Desktop\Projekte\SouthVPN\SouthVPN\SouthVPN\obj\Debug\net8.0-windows\SouthVPN_Content.g.cs
+C:\Users\kaytr\Desktop\Projekte\SouthVPN\SouthVPN\SouthVPN\bin\Debug\net8.0-windows\pic\main\background.png
