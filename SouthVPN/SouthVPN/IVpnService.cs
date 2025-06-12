@@ -2,10 +2,10 @@
 
 namespace SouthVPN
 {
-    public interface IVpnService
-    {
-        Task<bool> ConnectAsync(string serverName);
-        Task<bool> DisconnectAsync();
-        string GetStatus();
-    }
+	public interface IVpnService
+	{
+		Task<bool> ConnectAsync(string serverName);
+		Task<bool> DisconnectAsync();
+		string GetStatus();
+	}
 }
