@@ -44,11 +44,7 @@ During this project, we created several official documents as part of the M306 c
 - Utility Value Analysis (Nutzwertanalyse)
 - Project Status Report
 
-<<<<<<< HEAD
 For further information, please refer to the [Skript](Documents/BMSD23a-demoskript-SouthVPN.pdf).
-=======
-For further information, please refer to the [SouthVPN_Skript](Documents/SouthVPN_Skript.docx).
->>>>>>> 6e5562fc44d3a18caf0e9f6d0e9d1d8d11b3c22c
 
 ---
 
@@ -58,7 +54,7 @@ During the final pitch we presented two explanation videos:
 
 - [App Functionality Demo](https://youtu.be/BT-egczU2Og)
 
-- [Server Setup Explanation](INSERT_SERVER_SETUP_LINK_HERE)
+- [Server Setup Explanation](https://youtu.be/skiJEp_8yGQ)
 
 ---
 
