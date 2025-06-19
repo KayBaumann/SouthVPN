@@ -44,7 +44,11 @@ During this project, we created several official documents as part of the M306 c
 - Utility Value Analysis (Nutzwertanalyse)
 - Project Status Report
 
+<<<<<<< HEAD
 For further information, please refer to the [Skript](Documents/BMSD23a-demoskript-SouthVPN.pdf).
+=======
+For further information, please refer to the [SouthVPN_Skript](Documents/SouthVPN_Skript.docx).
+>>>>>>> 6e5562fc44d3a18caf0e9f6d0e9d1d8d11b3c22c
 
 ---
 
