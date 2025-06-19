@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SouthVPN")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4fbba4edb932d89298310977a07dcd13c6ac763f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aae1666d31cef3916fa808fddddfd3fbc3948dda")]
 [assembly: System.Reflection.AssemblyProductAttribute("SouthVPN")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SouthVPN")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
