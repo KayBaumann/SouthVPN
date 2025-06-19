@@ -11,60 +11,63 @@
         ResizeMode="NoResize"
         Background="#f0f0f0">
 
-	<Grid>
-		<Grid>
-			<Grid.ColumnDefinitions>
-				<ColumnDefinition Width="300"/>
-				<ColumnDefinition Width="*"/>
-			</Grid.ColumnDefinitions>
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
 
-			<Grid Grid.Column="0" Background="#1F2A40">
-				<Grid.RowDefinitions>
-					<RowDefinition Height="*"/>
-					<RowDefinition Height="Auto"/>
-				</Grid.RowDefinitions>
+            <!-- Linke Seite -->
+            <Grid Grid.Column="0" Background="#1F2A40">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
 
-				<StackPanel Margin="20" VerticalAlignment="Top">
-					<TextBlock Text="Wähle einen Server:"
+                <StackPanel Margin="20" VerticalAlignment="Top">
+                    <TextBlock Text="Wähle einen Server:"
                                Foreground="White"
                                FontSize="18"
                                Margin="0,0,0,10"/>
 
-					<ListBox x:Name="ServerListBox"
-         Width="220"
-         Background="White"
-         BorderThickness="0"
-         FontSize="14"
-         SelectionMode="Single">
-						<ListBoxItem Content="SouthVPN Server" IsSelected="True"/>
-					</ListBox>
+                    <ListBox x:Name="ServerListBox"
+                             Width="220"
+                             Background="White"
+                             BorderThickness="0"
+                             FontSize="14"
+                             SelectionMode="Single">
+                        <ListBoxItem Content="SouthVPN Server" IsSelected="True"/>
+                    </ListBox>
+                </StackPanel>
 
-				</StackPanel>
-
-				<StackPanel Margin="20" Grid.Row="1" VerticalAlignment="Bottom">
-					<Button Content="Abmelden"
+                <StackPanel Margin="20" Grid.Row="1" VerticalAlignment="Bottom">
+                    <Button Content="Abmelden"
                             Width="220" Height="35"
                             Background="#246795"
                             Foreground="White"
                             FontWeight="Bold"
                             Click="LogoutButton_Click"
                             Margin="0,0,0,10"/>
-					<Button Content="Beenden"
+                    <Button Content="Beenden"
                             Width="220" Height="35"
                             Background="Transparent"
                             BorderBrush="White"
                             Foreground="White"
                             Click="ExitButton_Click"/>
-				</StackPanel>
-			</Grid>
+                </StackPanel>
+            </Grid>
 
-			<Grid Grid.Column="1">
-				<Image Source="pic/main/background.png"
+            <!-- Rechte Seite -->
+            <Grid Grid.Column="1">
+                <!-- Hintergrundbild mit Transparenz -->
+                <Image Source="pic/main/background.png"
                        Stretch="UniformToFill"
+                       Opacity="0.4"
                        Panel.ZIndex="0"/>
 
-				<!-- Power Button -->
-				<Button Click="ConnectButton_Click"
+                <!-- Power Button -->
+                <Button Click="ConnectButton_Click"
                         Width="200"
                         Height="200"
                         Background="Transparent"
@@ -72,37 +75,37 @@
                         HorizontalAlignment="Center"
                         VerticalAlignment="Center"
                         Panel.ZIndex="1">
-					<Button.Template>
-						<ControlTemplate TargetType="Button">
-							<Grid>
-								<Ellipse x:Name="ellipse"
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Grid>
+                                <Ellipse x:Name="ellipse"
                                          Fill="Transparent"
                                          StrokeThickness="2"
                                          Stroke="Transparent"/>
-								<Image Source="pic/main/OnButton.png"
+                                <Image Source="pic/main/OnButton.png"
                                        Stretch="Uniform"/>
-							</Grid>
-							<ControlTemplate.Triggers>
-								<Trigger Property="IsMouseOver" Value="True">
-									<Setter TargetName="ellipse" Property="Stroke" Value="#246795"/>
-								</Trigger>
-							</ControlTemplate.Triggers>
-						</ControlTemplate>
-					</Button.Template>
-				</Button>
+                            </Grid>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="ellipse" Property="Stroke" Value="#246795"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
 
-				<StackPanel HorizontalAlignment="Center"
+                <StackPanel HorizontalAlignment="Center"
                             VerticalAlignment="Top"
                             Margin="0,80,0,0"
                             Panel.ZIndex="2">
-					<TextBlock Text="Willkommen bei SouthVPN"
+                    <TextBlock Text="Willkommen bei SouthVPN"
                                FontSize="28"
                                FontWeight="Bold"
                                Foreground="#246795"
                                Margin="0,0,0,10"
                                TextAlignment="Center"/>
-				</StackPanel>
-			</Grid>
-		</Grid>
-	</Grid>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Grid>
 </Window>

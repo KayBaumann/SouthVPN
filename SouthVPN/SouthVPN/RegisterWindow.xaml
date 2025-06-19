@@ -5,44 +5,82 @@
         WindowState="Maximized"
         WindowStyle="None"
         ResizeMode="NoResize"
-        Background="#f0f0f0"
+        Background="#1F2A40"
         WindowStartupLocation="CenterScreen">
 
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <!-- Schließen-Button -->
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
 
-        <!-- Schließen-Button oben rechts -->
-        <Button Content="✕" Width="40" Height="40"
-                HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10"
-                Background="Transparent" BorderBrush="Transparent" FontSize="16"
-                Click="CloseButton_Click" ToolTip="Fenster schließen"/>
+        <!-- Exit Button oben rechts -->
+        <Button Content="✕"
+                Width="40" Height="40"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Margin="10"
+                Background="Transparent"
+                BorderBrush="Transparent"
+                Foreground="White"
+                FontSize="16"
+                Click="CloseButton_Click"/>
 
-        <Grid Grid.Row="1" Margin="40">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="300"/>
-            </Grid.ColumnDefinitions>
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Margin="0,-100,0,0">
 
-            <TextBlock Text="Benutzername:" Grid.Row="0" Grid.Column="0" Margin="0,0,10,10" VerticalAlignment="Center" FontSize="16"/>
-            <TextBox x:Name="usernameBox" Grid.Row="0" Grid.Column="1" Height="30" Margin="0,0,0,10" FontSize="16"/>
+            <!-- Logo oben -->
+            <Image Source="pic/Logo.png"
+                   Width="160"
+                   Height="160"
+                   Margin="0,0,0,40"/>
 
-            <TextBlock Text="Passwort:" Grid.Row="1" Grid.Column="0" Margin="0,0,10,10" VerticalAlignment="Center" FontSize="16"/>
-            <PasswordBox x:Name="passwordBox" Grid.Row="1" Grid.Column="1" Height="30" Margin="0,0,0,10" FontSize="16"/>
+            <!-- Registrierungsformular -->
+            <Border Width="400"
+                    Background="White"
+                    CornerRadius="20"
+                    Padding="30">
+                <StackPanel>
 
-            <Button Content="Registrieren" Grid.Row="2" Grid.ColumnSpan="2" Height="40" Width="150"
-                    HorizontalAlignment="Center" Margin="0,20,0,0"
-                    FontSize="16" Click="RegisterButton_Click"/>
-        </Grid>
+                    <TextBlock Text="Registrieren"
+                               FontSize="24"
+                               FontWeight="Bold"
+                               Foreground="#246795"
+                               Margin="0,0,0,20"
+                               TextAlignment="Center"/>
+
+                    <TextBlock Text="Benutzername:"
+                               FontSize="16"
+                               Margin="0,0,0,5"/>
+                    <TextBox x:Name="usernameBox"
+                             Height="35"
+                             FontSize="16"
+                             Margin="0,0,0,20"/>
+
+                    <TextBlock Text="Passwort:"
+                               FontSize="16"
+                               Margin="0,0,0,5"/>
+                    <PasswordBox x:Name="passwordBox"
+                                 Height="35"
+                                 FontSize="16"
+                                 Margin="0,0,0,20"/>
+
+                    <Button Content="Registrieren"
+                            Height="45"
+                            Background="#246795"
+                            Foreground="White"
+                            FontWeight="Bold"
+                            FontSize="16"
+                            Margin="0,10,0,10"
+                            Click="RegisterButton_Click"/>
+
+                    <Button Content="Zurück zum Login"
+                            Height="45"
+                            Background="Transparent"
+                            BorderBrush="#246795"
+                            Foreground="#246795"
+                            FontWeight="Bold"
+                            FontSize="16"
+                            Click="BackToLoginButton_Click"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
     </Grid>
 </Window>

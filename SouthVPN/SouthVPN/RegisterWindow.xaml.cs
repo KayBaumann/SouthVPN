@@ -38,9 +38,16 @@ namespace SouthVPN
             }
         }
 
+        private void BackToLoginButton_Click(object sender, RoutedEventArgs e)
+        {
+            LoginWindow loginWindow = new LoginWindow();
+            loginWindow.Show();
+            this.Close();
+        }
+
         private void CloseButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            Application.Current.Shutdown();
         }
 
     }

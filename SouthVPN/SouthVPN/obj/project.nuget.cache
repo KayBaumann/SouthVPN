@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "deDHof1NffeSmf6Qop3DPU4Rt3UXenBZB48WLpqAarTuQk0C+/R6650Ap0/lVOPz4zVmtV09oY6vY1sOMTxFIw==",
+  "dgSpecHash": "Et8aY8JEMVHM8/8WVLdxfPGY+qpo0zWxwlZ890D9ZS7hnT/Z8MBjzDghqI2pwE3lCdKkLpK5GwjFpADUD1ZWBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marse\\SouthVPN\\SouthVPN\\SouthVPN\\SouthVPN.csproj",
+  "projectFilePath": "C:\\Users\\kaytr\\Desktop\\Projekte\\SouthVPN\\SouthVPN\\SouthVPN\\SouthVPN.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\marse\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.119\\stub.system.data.sqlite.core.netstandard.1.0.119.nupkg.sha512",
-    "C:\\Users\\marse\\.nuget\\packages\\system.data.sqlite.core\\1.0.119\\system.data.sqlite.core.1.0.119.nupkg.sha512"
+    "C:\\Users\\kaytr\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.119\\stub.system.data.sqlite.core.netstandard.1.0.119.nupkg.sha512",
+    "C:\\Users\\kaytr\\.nuget\\packages\\system.data.sqlite.core\\1.0.119\\system.data.sqlite.core.1.0.119.nupkg.sha512"
   ],
   "logs": []
 }

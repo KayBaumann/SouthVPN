@@ -32,5 +32,10 @@ namespace SouthVPN
             RegisterWindow register = new RegisterWindow();
             register.ShowDialog();
         }
+
+        private void ExitButton_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
     }
 }
