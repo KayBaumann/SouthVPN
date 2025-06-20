@@ -7,9 +7,10 @@
 ## Description
 
 SouthVPN is a school project where we set up our own VPN server and developed a matching desktop application.  
-Since many existing VPN providers are either paid, full of ads, or limited in functionality, we aimed to create a better and free alternative that is stable, user-friendly, and ad-free.
+Since many existing VPN providers are either paid, full of ads, or limited in functionality, we aimed to create a better and free alternative that is stable, user-friendly, and ad-free. 
 
-The project was developed by three students over approximately 15 hours. The VPN server is hosted on a home server located in Switzerland.
+The project was developed by three students over approximately 15 hours/person. The VPN server is hosted on a home server located in Switzerland.
+
 ---
 
 ## Features
